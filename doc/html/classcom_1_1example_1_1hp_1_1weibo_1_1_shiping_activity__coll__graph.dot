@@ -1,0 +1,21 @@
+digraph "com.example.hp.weibo.ShipingActivity"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="com.example.hp.weibo.Shiping\lActivity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AppCompatActivity",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _adapter" ,fontname="Helvetica"];
+  Node4 [label="com.example.hp.weibo.Shiping\lActivity.QQAdapter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_shiping_activity_1_1_q_q_adapter.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RecyclerView::Adapter\l\< QQHolder \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _data" ,fontname="Helvetica"];
+  Node6 [label="List\< com.example.hp.weibo.weiboshow_1 \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _imgXiaoxi\n_imgWeibo\n_imgWo\n_imgShiping\n_imgFaxian" ,fontname="Helvetica"];
+  Node7 [label="ImageView",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _lstQQ" ,fontname="Helvetica"];
+  Node8 [label="RecyclerView",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _data" ,fontname="Helvetica"];
+}

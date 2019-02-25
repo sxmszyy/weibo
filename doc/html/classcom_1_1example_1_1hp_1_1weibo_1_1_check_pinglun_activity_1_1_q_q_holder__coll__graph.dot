@@ -1,0 +1,19 @@
+digraph "com.example.hp.weibo.CheckPinglunActivity.QQHolder"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="com.example.hp.weibo.Check\lPinglunActivity.QQHolder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ViewHolder",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _dianzanimgUser\n_pinglunimgUser\n_imgZan\n_zhuanfaimgUser" ,fontname="Helvetica"];
+  Node4 [label="ImageView",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" imfo" ,fontname="Helvetica"];
+  Node5 [label="com.example.hp.weibo.PinglunInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_pinglun_info.html",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bitmap" ,fontname="Helvetica"];
+  Node6 [label="Bitmap",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _PinglunView" ,fontname="Helvetica"];
+  Node7 [label="View",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _tvzhuanfaTime\n_pinglunname\n_tvPinglunTime\n_tvhuifu\n_dianzanname\n_tvzhuanfa\n_tvPinglunWords\n_zhuanfaname\n_tvjianjie" ,fontname="Helvetica"];
+  Node8 [label="TextView",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_add_weibo"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:text="  取消  "/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:text="发微博"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textColor="#aaaaaa"
+                android:textSize="15dp"
+                android:text="用户名"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnZhuanfa"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_button2"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:text="转发"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/etWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

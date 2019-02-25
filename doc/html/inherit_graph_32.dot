@@ -1,0 +1,38 @@
+digraph "类继承关系图"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node80 [label="AppCompatActivity",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node80 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="com.example.hp.weibo.Add\lPinglunActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_add_pinglun_activity.html",tooltip=" "];
+  Node80 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="com.example.hp.weibo.Add\lWeiboActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_add_weibo_activity.html",tooltip=" "];
+  Node80 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="com.example.hp.weibo.Check\lHuifuActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_check_huifu_activity.html",tooltip=" "];
+  Node80 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="com.example.hp.weibo.Check\lPinglunActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_check_pinglun_activity.html",tooltip=" "];
+  Node80 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="com.example.hp.weibo.Code\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_code_activity.html",tooltip=" "];
+  Node80 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="com.example.hp.weibo.Confirm\lPasswordActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_confirm_password_activity.html",tooltip=" "];
+  Node80 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="com.example.hp.weibo.Faxian\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_faxian_activity.html",tooltip=" "];
+  Node80 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="com.example.hp.weibo.Pass\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_pass_activity.html",tooltip=" "];
+  Node80 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="com.example.hp.weibo.Shiping\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_shiping_activity.html",tooltip=" "];
+  Node80 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="com.example.hp.weibo.Signin\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_signin_activity.html",tooltip=" "];
+  Node80 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="com.example.hp.weibo.Wei\lBoActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_wei_bo_activity.html",tooltip=" "];
+  Node80 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="com.example.hp.weibo.Weibopinglun\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_weibopinglun_activity.html",tooltip=" "];
+  Node80 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="com.example.hp.weibo.WoActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_wo_activity.html",tooltip=" "];
+  Node80 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="com.example.hp.weibo.Xiaoxi\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_xiaoxi_activity.html",tooltip=" "];
+  Node80 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="com.example.hp.weibo.Zhuanfa\lActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1example_1_1hp_1_1weibo_1_1_zhuanfa_activity.html",tooltip=" "];
+}
